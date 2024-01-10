@@ -1,0 +1,25 @@
+{
+    "name": "salox/service",
+    "description": "Salohiddin service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Salox\\Service\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Salohiddin Nuriddinov"
+        }
+    ],
+    "require": {},
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mint\\Service\\MintServiceProvider"
+            ]
+        }
+    }
+}
