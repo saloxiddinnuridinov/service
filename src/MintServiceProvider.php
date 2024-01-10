@@ -1,6 +1,6 @@
 <?php
 
-namespace Mint\Service;
+namespace Salox\Service;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,7 +24,7 @@ class MintServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Mint\Service\Controllers\InstallController');
-        $this->app->make('Mint\Service\Controllers\UpdateController');
+        $this->app->make('Salox\Service\Controllers\InstallController');
+        $this->app->make('Salox\Service\Controllers\UpdateController');
     }
 }

@@ -1,7 +1,7 @@
 <?php
-namespace Mint\Service\Repositories;
+namespace Salox\Service\Repositories;
 
-use Mint\Service\Repositories\InitRepository;
+use Salox\Service\Repositories\InitRepository;
 use Illuminate\Validation\ValidationException;
 
 class UpdateRepository

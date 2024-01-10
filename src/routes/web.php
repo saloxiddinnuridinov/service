@@ -1,3 +1,3 @@
 <?php
-	Route::get('/migrate', 'Mint\Service\Controllers\InstallController@forceMigrate');
+	Route::get('/migrate', 'Salox\Service\Controllers\InstallController@forceMigrate');
 ?>

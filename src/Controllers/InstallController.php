@@ -1,10 +1,10 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Salox\Service\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Mint\Service\Requests\InstallRequest;
-use Mint\Service\Repositories\InstallRepository;
+use Salox\Service\Requests\InstallRequest;
+use Salox\Service\Repositories\InstallRepository;
 
 class InstallController extends Controller
 {

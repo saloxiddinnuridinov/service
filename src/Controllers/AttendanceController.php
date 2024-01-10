@@ -1,5 +1,5 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Salox\Service\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;

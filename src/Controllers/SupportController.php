@@ -1,11 +1,11 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Salox\Service\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Mint\Service\Requests\SupportRequest;
-use Mint\Service\Repositories\InitRepository;
-use Mint\Service\Repositories\SupportRepository;
+use Salox\Service\Requests\SupportRequest;
+use Salox\Service\Repositories\InitRepository;
+use Salox\Service\Repositories\SupportRepository;
 
 class SupportController extends Controller
 {

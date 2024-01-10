@@ -1,11 +1,11 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Salox\Service\Controllers;
 
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Mint\Service\Repositories\InitRepository;
-use Mint\Service\Repositories\UpdateRepository;
+use Salox\Service\Repositories\InitRepository;
+use Salox\Service\Repositories\UpdateRepository;
 
 class UpdateController extends Controller
 {

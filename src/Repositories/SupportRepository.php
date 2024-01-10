@@ -1,5 +1,5 @@
 <?php
-namespace Mint\Service\Repositories;
+namespace Salox\Service\Repositories;
 
 class SupportRepository
 {

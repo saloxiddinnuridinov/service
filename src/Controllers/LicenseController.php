@@ -1,10 +1,10 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Salox\Service\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Mint\Service\Requests\LicenseRequest;
-use Mint\Service\Repositories\LicenseRepository;
+use Salox\Service\Requests\LicenseRequest;
+use Salox\Service\Repositories\LicenseRepository;
 
 class LicenseController extends Controller
 {

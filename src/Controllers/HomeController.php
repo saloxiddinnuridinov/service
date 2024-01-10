@@ -1,9 +1,9 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Salox\Service\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Mint\Service\Repositories\InitRepository;
+use Salox\Service\Repositories\InitRepository;
 
 class HomeController extends Controller
 {

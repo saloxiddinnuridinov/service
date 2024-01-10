@@ -1,6 +1,6 @@
 <?php
 
-namespace Mint\Service\Requests;
+namespace Salox\Service\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
